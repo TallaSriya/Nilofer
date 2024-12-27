@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            text-align: center;
+            margin-top: 80px;
+            /* border: 2px solid blue; */
+        }
+        label{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body bgcolor="beige">
+    <h3 style="text-align: center;">If you have any problem with our services you can fill out a form and submit it to the cafe.</h3>
+    <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text">
+        <br><br>
+        <label for="date">Date you visited:</label>
+        <input id="date" type="text">
+        <br><br>
+        <label for="email">Email:</label>
+        <input id="email" type="email">
+        <br><br>
+        <label for="online">Ordered Online</label>
+        <input type="radio" id="online" value="online" name="order">
+        <label for="offline">Ordered Offline</label>
+        <input type="radio" id="offline" value="offline" name="order">
+        <br><br>
+        <label for="problem">What was the problem:</label>
+        <br>
+        <label for="food">Food was stale</label>
+        <input type="checkbox" id="food" value="food">
+        <label for="price">Price was too high</label>
+        <input type="checkbox" id="price" value="price">
+        <label for="place">Place was untidy</label>
+        <input type="checkbox" id="place" value="place">
+        <label for="service">Rude serving</label>
+        <input type="checkbox" id="service" value="service">
+        <br><br>
+        <label for="comment">How can we help you?</label>
+        <br>
+        <textarea id="comment" row="50" cols="5"></textarea>
+        <br><br>
+        <button id="submit" <a href="feedback@cafeniloufer.com"></a>Submit</button>
+    </form>
+</body>
+</html>
